@@ -1,0 +1,47 @@
+body {
+  background-color: #FB9;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#content {
+
+    padding:1em;
+}
+
+label {
+    display: block;
+    width: 10em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color:  blue;
+}
+
+.container {
+    border:1px solid gray;
+    line-height:150%;
+    width: 600px;
+}
+
+
+
+
+div {
+    
+}
+
+textarea {
+   margin-left: 6em;
+}

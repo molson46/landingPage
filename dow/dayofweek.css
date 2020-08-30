@@ -1,0 +1,33 @@
+    body {
+        font-size: larger;
+    }
+
+    input {
+        font-size: 18px;
+    }
+
+    #content {
+        width: 500px;
+        margin: 0 auto;
+        border: thin solid black;
+        padding: 0 5px;
+        background-color:#FF9999;
+        }
+       
+    p {line-height: 150%;}
+    
+    h2 {
+        text-align: center;
+    }
+
+    table input {
+        text-align: right;
+        }
+
+#message {
+    text-align: center;
+    color: #red;
+    background-color: #FFFF66;        
+    font-size: x-large;
+}
+

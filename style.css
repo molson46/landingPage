@@ -1,0 +1,565 @@
+/*
+Author: Marv Olson
+Date: Tuesday, October 15, 2013
+Wednesday, March 26, 2014 to include tips learned during Web Development class.
+Tuesday, November 18, 2014: Extensive updates to page layout: nav bar moved to top. News column added on home page, added number 6 logo, rewrote landing page narrative
+Friday, July 3, 2015: Updated to use Bootstrap which simplified the CSS considerable
+*/
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+/* General Definitions */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    /* background-color: #CCC; */
+    background-color: white;
+    color: #1D444A;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h4 {
+    color: darkgreen;
+}
+/* Other Definitions */
+
+#siteHeader {
+	color: white;
+	background-color: #7d3d5b;
+}
+
+#logo {
+	margin-top: 15px;
+	margin-left: 15px;
+    margin-bottom: 15px;
+	z-index: 1;
+	height: 160px;
+	width: 160px;
+}
+
+#logo img {
+	height: 160px;
+	width: 160px;
+}
+
+#homeHeader   {
+	position: relative;
+	margin-top: 30px;
+	margin-left: center;
+	margin-right: center;
+	text-align: center;
+}
+
+#siteTitle {
+	font-weight: bold;
+	font-size: 48px;
+	text-decoration: none;
+	text-shadow: 2px 3px #7F7F7F;
+	width: auto;
+}
+
+#siteSubTitle {
+	font-size: 24px;
+	padding-top: 5px;
+	color: #F8F9F9;
+}
+
+#daysToEvent {
+    color:#7d3d5b;
+    font-size:1.75em;
+    line-height: 125%;
+    text-decoration:underline;
+}
+
+.centerText {text-align:center;}
+
+.bigFirst:first-letter {
+  font-size: 200%;
+  color: #000;
+  background-color: #EEEEEE;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+#noTable {
+	width: 50%;
+	margin: 10px auto;
+	padding: 5px 20px;
+	background-color: #D0DBE9;
+	border: 1px solid #000000;
+	-webkit-box-shadow: 5px 5px;
+	box-shadow: 5px 5px;
+}
+
+.pageHeader {
+    text-align: center;
+    color: #7d3d5b;
+    font-size: 4em;
+    
+}
+
+
+*/
+/****************************************************************************/
+/****************************************************************************/
+/* Main body styles                                                         */
+/****************************************************************************/
+/****************************************************************************/
+
+#content {
+	display: table;
+	border-right-color: wheat;
+	border-right-width: 1px;
+	padding: 1em;
+	width: 100%;
+}
+
+#content h2 {
+	color: blue;
+}
+
+
+#sidebar {
+	display: table-cell;
+	padding-top: 0px;
+	width: 30%;
+}
+#sidebar h2  {
+	text-align: center;
+	background-color: black;
+	color: #FFFFFF;
+}
+#content #sidebar ul {
+}
+
+#message{
+	display: table-cell;
+	width: 70%;
+	border-right-style: solid;
+}
+
+#footer {
+	padding: 0.5em;
+	color: red;
+	background-color: black;
+	clear: left;
+}
+#message p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#underconstruction {
+	font-size: 48px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: rgba(220,236,15,1);
+	background-color: rgba(7,7,7,1.00);
+	text-align: center;
+	text-shadow: 2px 2px rgba(245,6,10,1.00);
+	height: 150px;
+	padding-top: 50px;
+}
+
+
+.gcse-searchbox {
+    margin-left: 20px;
+	margin-right: 20px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+#searchBox {
+    color: red;
+    text-align: right;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.emphasis {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.important {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.strongMessage {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border: 10px solid darkgreen;
+	-webkit-box-shadow: 5px 5px gray;
+	10px 10px 8px 10px gray;
+}
+
+.centerBox {
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    background-color: #1D444A;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #7d3d5b;
+	-webkit-box-shadow: 5px 5px gray;
+	10px 10px 8px 10px gray;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+/*
+// Contact Us form section
+*/
+
+div.fieldset {
+    width 500px;
+    border: solid black thin;
+    background-color: #ffffbo;
+}
+
+
+
+fieldset {
+    border: none;
+
+    padding: 0;
+}
+
+legend {
+    font-size: 2em;
+    background-color: #1D444A;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label.field {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    float: left;
+    vertical-align: top;
+    color: #525252;
+}
+
+fieldset p {
+    clear: both;
+    padding: 5px;
+}
+
+#Background {
+    background-color: #FFEFA4;
+}
+
+input[type="submit"] {
+    -moz-appearance: button;
+    -moz-binding: none;
+    -moz-box-sizing: border-box;
+    -moz-user-select: none;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #1D444A;
+    border: 2px outset buttonface;
+    color: buttontext;
+    cursor: default;
+    font: -moz-button;
+    /*line-height: normal;*/
+    padding: 0 6px;
+    text-align: center;
+    text-shadow: none;
+    white-space: pre;
+    width: 6em;  height: 3em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    hover {background-color: #3e8e41}
+}
+
+.submit {
+
+}
+
+input:active {
+    background-color: #A0312C;
+}
+
+input:hover {
+    color: #C95D57;
+}
+
+.hashtag {
+    font-style: italic;
+    font-size: 125%;
+    color: #0b634b;
+}
+
+
+#CenterNotice {
+    text-align: center;
+    font-size: 200%;
+    color:  #3d7d42;
+    font-weight: bold;
+}
+
+/
+
+
+.buttonMarv {
+    background-color: #7d3d5b !important;
+}
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+/* Images */
+
+.largeImage {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallImage {
+	height : 200px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.img100Percent {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img90Percent {
+    width: 90%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img75Percent {
+    width: 75%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img50Percent {
+    width: 50%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img30Percent {
+	width: 30%;
+    padding: 5px;
+	float: left;
+	margin-left: auto;
+	margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.image30Percent {
+	width: 30%;
+    padding: 5px;
+	float: left;
+	margin-left: auto;
+	margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.rightFrameImage {
+    max-width: 100%;
+  height: auto;
+    border:3px solid #021a40;
+}
+
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.favPhoto {
+	width: 360px;
+	height: 360px;
+	float: left;
+
+}
+
+.favImage {
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.favCaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+//
+// Lightbox Number 6 introduction styles 
+//
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#light {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  max-height: 360px;
+  margin-left: -300px;
+  margin-top: -180px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#boxclose {
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 3px;
+  background: #222222;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1002;
+  opacity: 0.9;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+#fade:hover ~ #boxclose {
+  display:none;
+}
+
+.test:hover ~ .test2 {
+  display: none;
+}
+
+/*
+    2019-06-22
+    Photo automatic slideshow css styles
+*/
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 100%;
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.mediumPhoto {
+  width: 50%;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 15px #999999;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.largePhoto {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 15px #999999;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    color: darkgreen;
+}
+
+th {
+    text-align: center;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.tableCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerElement {
+    text-align: center;
+}
+
+.blockquoteBar {
+    border-left: 5px solid darkgray;
+}

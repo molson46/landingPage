@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Author Marv Olson-->
+    <!-- Updated 2015.07.02 to use Bootstrap to replace current Nav Bar-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Marv Olson</title>
+
+
+<!--TODO: Finish ContactUs update -->
+<!--TODO: Update color scheme to new colors - See Bear-->
+<!--TODO: Fix Number 6 logo and the Prisoner video - Video needs to popup when you click on 6 -->
+<!--TODO: Add an Archived Posts page-->
+
+<!--+++Start replace+++-->
+<!--Start Common Header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap and jQuery links-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--My Custome Styles-->
+<link rel="stylesheet" href="./style.css" type="text/css"/>
+
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="./favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="./favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="./favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="./favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="./favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="./favicon/favicon-144.png">
+	<meta name="msapplication-config" content="./favicon/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
+
+</head>
+
+<!-- <body style="background-color:wheat;"> -->
+<body>
+<script language="JavaScript"></script>
+
+
+<!-- Header ---------------------------------------------->
+<header class="container" id="siteHeader">
+<div class="row">
+    <div class="col-lg-3" >
+    <div id="logo">
+        <img src="img/number6_Green.png" alt="Number 6"/>
+    </div>
+    </div>
+    <div class="col-lg-9" >
+        <script src="./js/lightbox.js"></script>
+        <div id="homeHeader">
+        <div id="siteTitle">Marv Olson</div>
+        <div id="siteSubTitle">I am not a Number!<br></div>
+         <a href="./Number6Video.html" target="_blank" class="btn btn-success btn-lg" role="button">Why #6</a>
+
+    </div>
+    </div>
+</div>
+</header>
+<!-- End Header-->
+ <p></p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--Nav bar-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./index.html">Marv</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="./MarvResume.html">About</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Photos<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="https://www.flickr.com/photos/molson46/">flickr</a></li>
+                <li><a href="https://molson46.tumblr.com/">Tumblr</a></li>
+                <li><a href="https://www.instagram.com/marvolson/">Instagram</a></li>
+                <li><a href="./Photos.html">Some Favorites</a></li>
+            </ul>
+            </li>
+            <li><a href="./sandBox.html">Sandbox</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Social<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="https://molson46.wordpress.com">My Old blog</a></li>
+                <li><a href="https://twitter.com/molson1946/">Twitter</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bookmarks<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="https://mav.pca.org/">PCA Mavericks</a></li>
+                <li><a href="https://www.ccmgatx.org/">ccmgatx</a></li>
+                <li><a href="https://www.bbc.com/">the news</a></li>
+            </ul>
+            </li>
+            <li><a href="./olderPosts.html">Post Archive</a></li>
+            <li><a href="#howdy">Howdy</a></li>
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Me</a></li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+<!--Nav Bar End-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+<div class="gcse-searchbox">
+<script>
+  (function() {
+    var cx = '012621257295864788119:z15_1r7xp3i';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+
+<!--End common header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--+++Stop replace+++-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- content ---------------------------------------------------->
+<div class="container">
+<div class="row">
+
+<!-- Message ------------------------------------------------------------------------------------>
+<div class="col-lg-8" >
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="note-wrapper">    
+<h1 id="The Brother Gardeners">The Brother Gardeners</h1>
+<h4>August 15, 2020</h4>
+<p><span class='hashtag'>#blog</span> <span class='hashtag'>#landscape</span> </p>
+<br>
+<p>If you are a gardener and can read you will probably be interested in <i>The Brother  Gardeners: Botany, Empire and the Birth of an Obsession</i> by Andrea Wulf. brings to life the dramas and dangers of eighteenth-century plant collecting.</p>
+<br>
+<p>Andrea Wulf  could probably write and interesting autobiography.  She was born India and moved to Germany as a child. She trained as a design historian at the Royal College of Art  in London.  However she chose  to make a career of writing Botany and Gardening Books.  This is the  third book of her’s I’ve read.  They were all delightful and interesting books which brought to life  Gardening in the past and how we came to where we are today.  The other books I’ve read which I heartily recommend are:</p>
+<br>
+<ul><li><i>Founding Gardeners: The Revolutionary Generation, Nature, and the Shaping of the American Nation</i>
+</li><li><i>The Invention of Nature: Alexander Von Humbolt’s New World</i>
+</li></ul>
+<br>
+<p>In  <i>The Brother Gardeners</i>   the author documents the rise of the Gardening Hobby in England led by a small group of 18th century naturalists that made England a nation of gardeners.  The main characters:</p>
+<br>
+<ul><li>John Bartman
+</li><li>Philip Miller
+</li><li>Peter Collinson
+</li><li>Carl Linnaeus
+</li><li>Daniel Solander
+</li><li>Joseph Banks
+</li></ul>
+<br>
+<p>The book is an easy read. The author’s style keeps you interested.  The following is some highlights of each of the main characters:</p>
+
+<br>
+<h3 id="John Bartram">John Bartram</h3>
+<br>
+<p>American farmer who shipped literally tons of plants and seeds to England over the years  </p>
+<br>
+<p>Bartram traveled far and wide from Virginia to New York’s Catskills To collect specimens for Collinson and the English subscribers to his shipments</p>
+<br>
+<h3 id="Philip Miller">Philip Miller</h3>
+<br>
+<p>Miller was a lowly nurseryman who, for much of his professional life, managed the quasi-medical Physic Garden in Chelsea. </p>
+<br>
+<p>Created the first Gardeners Dictionary <i>The Gardener’s Dictionary</i>. As a result he was voted into the <i>Royal Society</i></p>
+<br>
+<h3 id="Peter Collinson">Peter Collinson</h3>
+<br>
+<p>Collinson was a wealthy merchant whose own story cannot really be separated from that of his New World business partner, John Bartram.</p>
+<br>
+<p>Peter was the recipient of Bartram’s parcels and an avid gardener.  He organized the group of English Gardeners who paid for and shared Bartram’s plants and seeds  </p>
+<br>
+<p>Collinson was the glue that held this extraordinary group of Gardeners and Botanists together.   </p>
+<br>
+<p>He and Bertram although they never met each other in person became the closest friends and grew old together.  </p>
+<br>
+<p>He was the first to die in 1768</p>
+<br>
+<h3 id="Joseph Banks">Joseph Banks</h3>
+<br>
+<p>His return from Endeavour's transglobal expedition turned Banks into an overnight sensation with the 18th-century equivalent of rockstar status. Aided by his great Swedish friend and collaborator, Daniel Solander, and backed by huge wealth based on estates in Lincolnshire, Banks became the pivot on which revolved the entire British botanical establishment.    </p>
+
+<p>He also became President of the Royal Society which he held for over 40 years.  He did much to spread the knowledge of Botany throughout the World and to make the Sun never set on the British Empire  </p>
+<br>
+<p>His accomplishment spread out far from Botany.  For example he imported Spanish Sheep, breed them with English sheep, and exported them to Australia.  They became the famed Merino Sheep.</p>
+<br>
+<h4 id="Endeavour">Endeavour</h4>
+<p>The ship manned by Captain Cook and his crewed sailed around the World.   </p>
+<br>
+<p>The voyage lasted from 1768 to 1771.  </p>
+<br>
+<p>Two goals: observe the Transit of Venus in Tahiti and discover the fabled Great Southern Continent.    </p>
+<br>
+<p>Transits were needed in order to calculate the distance of the Earth from the Sun  </p>
+<br>
+<p>Joseph Banks and Daniel Solander sailed with the Endeavor  to search out fauna and flora.  They were allowed on the voyage because Banks in large part financed the trip.  </p>
+<br>
+<p>Main stops were:  </p>
+<ul><li>Rio  
+</li><li>Tierra Del Fuego  
+</li><li>Tahiti
+</li></ul>
+<br>
+<h3 id="Carl Linnaeus"> Carl Linnaeus</h3>
+<br>
+<p>Swedish botanist, zoologist, and physician who formalized binomial nomenclature, the modern system of naming organisms. He is known as the "father of modern taxonomy  </p>
+<br>
+<p>His classification method is still used today but at the time was considered scandalous because it was based on the plant’s sex organs - stamens and pistils.    </p>
+<br>
+<p>Now that we have DNA will we reclassify plants based on DNA?  </p>
+<br>
+<p>After his tour through Europe he returned to Sweden where he eventually became a professor at the University of Uppsala.  </p>
+<br>
+<p>While there he used a group of volunteers to collect and classify all plants which he published as the <i>Species Plantarum</i>  </p>
+<br>
+<p><i>Species Plantarum</i> (Latin for "The Species of Plants") is a book by Carl Linnaeus, originally published in 1753, which lists every species of plant known at the time, classified into genera. It is the first work to consistently apply binomial names and was the starting point for the naming of plant</p>
+<br>
+<h3 id="Daniel Solander">Daniel Solander</h3>
+<br>
+<p>Disciple who Linnaeus sent to England. Much to Linnaeus’ dismay he stayed in England and became one of the first employees of the British Museum cataloging Han Sloane’s vast collection of dried plants, insects, and minerals </p>
+<br>
+<h3>Robert Petre</h3>
+<br>
+<p>If you are counting Robert is number seven and I said there were only six.  He was like the <i>Candle in the Wind</i> popularized by Elton John.  The book would have included seven but he died at the tender age of 30.</p>
+<br>
+<p>The Eight Baron of Petre.  He inherited “Thorndon” at the age of 19 and devoted his life to transforming his estate as a showcase to American Plants in England.    </p>
+<br>
+<p>He was the biggest customer of John Bartram.  His zeal was so intense he even raised large mounds in the Northern part of his Estate to mimic the Appalachians that Bartram had described in great detail  </p>
+<br>
+<p>Both Miller and Collinson were mentors for Petre.  </p>
+<br>
+<p>Most unfortunate he died of smallpox at the tender age of 30</p>
+<br>
+
+</div>
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->    
+<div class="note-wrapper">
+<h1 id="The Overstory">The Overstory</h1>
+<h4>July 03, 2020</h4>
+    <p><span class='hashtag'>#book</span> <span class='hashtag'>#nature</span> <span class='hashtag'>#trees</span></p>
+    <br>
+    <p><i>The Overstory - the Wisdom of Trees</i>. By Richard Powers- Wow, what a story!  Easily my book to the year unless, of course, something better pops up on my reading list this year.  A story about trees, no a story about the Planet, no a story about Nature, no a story about the eight main  characters whose lives are related in one way or the other due to trees.</p>
+    <br>
+    <p>The book is split into four sections, Roots, Trunk, Crown and Seeds. Roots spreads itself out across eight very different lives, extended short stories, each of which hinges, in some way, on a character’s relationship to trees.</p>
+    <br>
+    <p>The <i>over arching message</i> from the book: Nature will outlast man on the Planet and recover.  </p>
+    <br>
+    <p>Reading book was an almost “spiritual” experience for me.   You can’t read this book without viewing trees differently.  Unless your very hedonistic you view the Planet and Nature very differently.  And just maybe if your very lucky you realize Nature is nothing but chemistry, biology, and physics. There is nothing special in Nature about Man.  Long after we are extinct Nature will be humming along healing the Planet from our excesses.</p>
+    <br>
+    <p>The book won the <b>Pulitzer Prize</b> for fiction in 2019.</p>
+</div>    
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="note-wrapper">    
+<h1 id="GEB">GEB</h1>
+<h4>May 25, 2020</h4>
+<p><span class='hashtag'>#book</span> <span class='hashtag'>#idea</span></p>
+<br>
+<p>After my third reading of GEB in the past 20 years I’m still not sure what the book is about?  What’s the point?  Here’s a diagram of general flow of the book:</p>
+<br>
+<p><img class="largePhoto" src=./photos/GEB_Flow.png></p>
+<br>
+<p><b>Godel’s Theorem</b> certainly plays a major role.  That is, you can’t be certain of anything if you extend it beyond Number Theory.  Formal Number Theory comprises much of the tome.</p>
+<br>
+<p>Just when I think I’ve nailed it he branches off into <b>Bach’s Fugues</b>.  Apparently Bach accomplished the impossible when he composed 8 part Fugues.</p>
+<br>
+<p>Then there is <b>Escher’s Drawings</b> with their <b>Strange Loops</b> - another subject which delights the author.</p>
+<br>
+<p>Of course what book would be complete without a course on <b>Molecular Biology</b> that branches off into <b>Brains</b>.</p>
+<br>
+<p>Hofstadter’s main theme: To suggest ways of reconciling the software of the mind with the hardware of brain is a main goal of this book</p>
+<br>
+<p>In the final analysis the book is about uncertainty from Math, to music, to art, biology, to DNA, to brain functions.</p>
+<br>
+<p>The author covers so many subjects I can’t do justice to them all or any of them as a matter of fact.  Therefore, I’m just listing a handful of the major topics</p>
+
+<h2 id="Godel">Godel</h2>
+<h3 id="Incompleteness Theorem">Incompleteness Theorem</h3>
+<p>Although they are gripped together Godless actually authored two theorems</p>
+<blockquote class="blockquoteBar">
+<p>Any consistent formal system <i>F</i> within which a certain amount of elementary arithmetic can be carried out is incomplete; i.e., there are statements of the language of <i>F</i> which can neither be proved nor disproved in <i>F</i>.</p>
+</blockquote>
+<p>And</p>
+<blockquote  class="blockquoteBar">
+<p>For any consistent system <i>F</i> within which a certain amount of elementary arithmetic can be carried out, the consistency of <i>F</i> cannot be proved in <i>F</i> itself.</p>
+</blockquote>
+
+<h2 id="Bach">Bach</h2>
+<ul><li>Fugue - Apparently Bach was the  <b>Fugue Master</b>.  He authored up to eight part fugues which is supposed to be impossible .  What is a fugue:  A contrapuntal composition in which a short melody or phrase (the subject) is introduced by one part and successively taken up by others and developed by interweaving the parts.
+</li><li>Canon - A Canon is a type of Fugue: In a <b>Canon</b>, two or more voices are almost exactly imitating each other, but this imitation is subject to the rules of counterpoint. Basic canons have the second voice start the exact same melody with the same notes, only delayed.
+</li></ul>
+
+<h2 id="Escher">Escher</h2>
+<p>Escher's  work features mathematical objects and operations including impossible objects, explorations of infinity, reflection, symmetry, perspective, truncated and stellated polyhedra, hyperbolic geometry, and tessellations.</p>
+
+<h2 id="Euclid">Euclid</h2>
+<ul><li>Euclid’s Proof
+</li><li>Geometry
+</li><li>Infinite Geometry
+</li><li>Rigor in Math
+</li><li>Elements by Euclid
+</li></ul>
+
+<h2 id="Formal Number Theory">Formal Number Theory</h2>
+<ul><li>Typographical Number Theory (TNT)
+</li><li>Peano Postulates
+</li><li>Natural Numbers
+</li><li>Typographical Operations
+</li><li>Propositional Calculus
+</li></ul>
+
+<h2 id="Isomorphic">Isomorphic</h2>
+<p>A main theme of the book. What does it mean: “Given two groups there is a corresponding or similar in form and relations”</p>
+<h2 id="Strange Loops">Strange Loops</h2>
+<p>A main theme of this book.  A <b>strange loop</b> is a cyclic structure that goes through several levels in a hierarchical system. It arises when, by moving only upwards or downwards through the system, one finds oneself back where one started. Strange loops may involve self-reference and paradox. </p>
+<br>
+<p>Escher’s art works are a good example of a strange loop.</p>
+<h2 id="Three Body Problem">Three Body Problem</h2>
+<p>In Newtonian Physics with more than two bodies the exact orbits cannot be exactly determined (a poor plain English definition).  A popular example of the problem is the Sun, the Earth, and the Moon.  The three body problem is a special case of the “n” body problem.  Actually for all practical purposes the three body and “n” body problems have been solved. </p>
+<h2 id="Zen">Zen</h2>
+<blockquote class="blockquoteBar">
+<p>A monk asked Master Chao-chou, "Has a dog the  <a href="https://www.learnreligions.com/buddha-nature-doctrine-450001">Buddha Nature</a>  or not?" Chao-chou said, "Mu!"</p>
+</blockquote>
+<h2 id="Computers & Software">Computers & Software</h2>
+<ul><li>Charles Babbage
+</li><li>Lisp
+</li><li>Algol
+</li><li>Artificial Intelligence 
+</li><li>Strange Loops & Intelligence
+</li></ul>
+<h2 id="Theorems, Axioms, Rules">Theorems, Axioms, Rules</h2>
+<h2 id="Recursion">Recursion</h2>
+<h2 id="Networks">Networks</h2>
+<h2 id="Hofstadter’s Law">Hofstadter’s Law</h2>
+<blockquote class="blockquoteBar">
+<p>It always takes longer than you expect, even when you take into account Hofstadter's Law.</p>
+</blockquote>
+<h2 id="Fermat’s Last Theorem">Fermat’s Last Theorem</h2>
+<h2 id="Brain">Brain</h2>
+<ul><li>Knowledge vs Belief
+</li><li>Know little of how they work
+</li><li>What is Consciousness
+</li></ul>
+<br>
+<h2 id="Molecular Biology">Molecular Biology</h2>
+<ul><li>DNA
+</li><li>RNA
+</li><li>Messenger
+</li><li>Transfer
+</li><li>Proteins
+</li><li>Strands
+</li><li>Bases
+</li><li>Enzymes
+</li><li>Amino Acids
+</li><li>Ribosomes
+</li><li>Nucleotides
+</li><li>Genetic Code
+</li><li>Strange Loops Again
+</li><li>The Origin of Life
+</li><li>Central Dogma of Molecular Biology
+</li></ul>
+<p>DNA —> RNA —> proteins</p>
+</div>
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="note-wrapper">
+<h1 id="Music and Creativity">Music &amp; Creativity</h1>
+<h4>May 20, 2020</h4>
+<p> <span class='hashtag'>#opinion</span></p>
+<br>
+<p>I was listening to the radio this morning, for the younger crowd it’s a legacy system that converts audio to RF and  transmits the RF through the atmosphere. The RF is received by the device named <b>radio</b> and converted back into audio..   <i>Gypsy</i> by Fleetwood Mac was playing.  I was struck by the beauty of  combination of voice and instruments; started me thinking about <b>creativity</b>.</p>
+<br>
+<p> From what I understand the Stevie Nicks created the voice part alone one night on the floor of a Florist Shop.  She was homeless and had convinced the Owner to let her camp out there in exchange for being sort of a night watch woman. Then sometime later she had joined Fleetwood Mac the group put it to music. Of course they recorded the song in a studio with much help and direction from the producer (not sure of the right term here).  </p>
+<br>
+<p>The result was a work of beauty as far as I was concerned - especially the music.  I don’t know the words but I love the voice.  However, I must add I’m more of a sound person than a voice person.  I don’t know more than a word or two of some of my favorite tunes.</p>
+<br>
+<p>All this leads me to the question <i>“Why are some people so artistically creative and others like me (Engineers) are what I guess you call creative but in a totally different direction?”</i> Why can I develop a digital signal processing (DSP) algorithm on a computer but can’t hold a tune let alone create one?   I guess I should be happy we are all created differently and not worry about what I can’t do?</p>
+<br>
+
+</div>
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="note-wrapper">
+<h1 id="The Club">The Club</h1>
+<h4>March 10, 2020</h4>
+<p><span class='hashtag'>#book</span> </p>
+<br>
+<p>Finished <b>The Club by Leo Damrosch</b> this morning. 399 pages. The Club is a group meeting on Friday nights at Turk's Head Tavern to mostly discuss almost every subject under the Sun but also to eat and drink.</p>
+<br>
+<p>Before starting the book I imagined much of the story would be about their Friday Night discussions. But not one Friday night event was documented in the book.  Rather the story whirled around the lives of the Club's members who for the most part were the giants of the literary, artistic, academic, and political community - basically the leaders or their age minus the Monarchy.  </p>
+<br>
+<p><i>The Club</i> centers around the literary giant <b>Samuel Johnson</b> and <b>James Boswell</b>., the man who immortalized his words of wisdom.  Other members included <b>Adam Smith</b>, <b>Edmund Burke</b>, <b>Edward Gibbon</b>, and <b>Joshua Reynolds</b>.  They and others warranted their own chapter in the Book.</p>
+<br>
+<p>As well as learning more about these men and women I also gained much insight into Life in general during that Age. I’m really glad doctors don’t lay hot coals on my back to produce blisters from which <i>“evil humors”</i> can be drained.</p>
+
+</div>
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="note-wrapper">
+  <h1 id="San Diego">San Diego</h1>
+    <h4>March 10, 2020</h4>
+<p><span class='hashtag'>#blog</span> <span class='hashtag'>#travel</span> <span class='hashtag'>#california</span> </p>
+<p>.  </p>
+<p>We took a short holiday in San Diego the latter part of January this year to escape the cold weather.  As it turned out the Dallas weather was very warm this January but San Diego was still better.</p>
+<br>
+<h2 id="Highlights">Highlights</h2>
+<ul><li>Liberty Market - Food Hall near the airport. Great place for a meal after a long flight
+</li><li>The Nolan - Roof top bar with a great view of the City
+</li><li>Ironsides Fish &amp; Oyster House - Little Italy Restaurant with top flight seafood
+</li><li>La Jolla - Drive the backroads up to La Jolla. Lunch at George’s on the Cove Rooftop Bar. Visit some village galleries like the National Geographic. Stroll down to the Children’s Pool and watch the seals and sea lions sun on the beach
+</li><li>Las Olas on the beach in Encinitas, an old time Mexican restaurant across 101 from the beach.  It’s been there for decades but the food is great
+</li><li>Cucina Urbana - 5 star Italian uptown
+</li><li>Balboa Park - its more than the zoo.  There are 17, I think, museums there.  We visited 5.  They had to kick us out of the museums when they closed at 5PM
+</li></ul>
+<img class="img90Percent" src="./photos/ViewFromGeorges.jpg">
+<hr>
+<h2 id="TL;DR">TL;DR</h2>
+<br>
+<p>Jan 26, 2020 at 9:03 PM:  Flight to San Diego was on time and smooth.  Can’t ask for much more on a plane flight.</p>
+<br>
+<p>Lunch at <b>Liberty Market</b>. Similar to Legacy Hall in that it has many small food stalls.  Very good and close to the Airport.</p>
+<br>
+<p>Checked into the <b>Wyndham Harbor Lights</b> and rested for awhile.</p>
+<br>
+<p>Walked to <b>The Nolan</b>, a rooftop bar close to the Harbor for a drink and mid-afternoon snack.  </p>
+<br>
+<p>Back to the hotel for awhile</p>
+<br>
+<p>Walked to <b>Ironsides Fish and Oyster House</b> in Little Italy for dinner.  Sat down and the gentleman and lady next to us asked “Were you at The Nolan this afternoon?”  Turns out they sat next to us.  We had an enjoyable conversation during dinner.  It’s a small World Charlie Brown.  Dinner was excellent topped off by top notch cappuccino and espresso </p>
+<hr>
+<br>
+<p>Jan 27, 2020 at 8:24 PM: Exercised at OTF this morning and then bagels.  </p>
+<br>
+<p>Drove the back roads to <b>La Jolla</b> and had lunch at <b>George’s on the Cove Terrace</b> overlooking the Pacific.  Breathtaking view and Excellent food and drink.  Could have stayed there all day.</p>
+<br>
+<p>Next we walked around stopping at a couple of galleries</p>
+<ul><li>National Geographic Portraits - almost all wildlife photos.  Unbelievable the clarity of the photos.  Biggest problem besides the cost, which we did not ask,  which has to be in the Thousands was the size. The smallest are close to a meter high.  A few were 2.5 meters wide.  The Yellowstone Bison was my favorite.  I’d sit in the library and stare at it for hours if it were mine.  It’s a Winter scene. The Bison is blanketed with snow which is steaming off because he’s walking over a hot spring.
+</li><li>Navajo Painter R. C. Gorman Gallery - The American Picasso.  Focused on flowing Southwest scenes many with women. I’d take one of these home also if I were $$$$.
+</li></ul>
+<p>Then we walked down to the <b>Children’s Pool</b>, a sheltered cove on the beach constructed in the 30s so the local children would have a safe area to swim in the Pacific free from the surf.  The cove was created by building a curved wall into to the ocean.  Turns out the local seals found the cove and congregate there to catch some rays on the beach making the Pool a great place to watch the seals.  </p>
+<br>
+<p>Then back to the hotel for an hour or two.</p>
+<br>
+<p>Late afternoon we drove out to <b>Pacific Beach</b> and strolled along the Boardwalk as the Sun set over the horizon.  </p>
+<br>
+<p>Last stop was the <b>Backyard</b> which is a Pacific Beach Sports Bar.  Cool interior and patio but average Sports Bar fare</p>
+<hr>
+<p>Jan 28, 2020 at 4:09 PM:  Exercised this morning. It was a tough one. After exercising came to the rental and discovered a parking ticket on my windshield for $42.50 because I forgot to put money in the meter — STUPID.</p>
+<br>
+<p>So bagels at Panera’s again for breakfast to save money.</p>
+<br>
+<p>Decided to visit the <b>San Diego Botanical Garden</b> today in Encinitas.  On the way we stopped at <b>Las Olas</b> on the beach in Encinitas.  Great Mexican Food!  Then off to the Botanical Garden.  Most of the plants were from the Arid Regions of the Planet.  Very interesting even in January.</p>
+<img class="img90Percent" src="./photos/SanDiegoBotanicalGarden.jpg">
+<br>
+<p>Jan 28, 2020 at 8:26 PM:  Dinner at <b>Cucina Urbana</b>.  No its not near the University of Illinois. It's in San Diego and very good Italian. 5 stars in my book.</p>
+<hr>
+<p>Jan 29: No exercise today.  Breakfast at Brian’s 24.  Good ratings and reviews.   Brian must have been flooding Internet with reviews because the restaurant was mediocre to say the best</p>
+<br>
+<p>Spent the day at <b>Balboa Park</b> in the Museum area.  We bought the 1 day Explorer pass for $48 a piece which gets us admission to 5 of the 17 museums and the iMax if we visit the Science Discovery Center as one of the museums.  Did not know how long we would be there but we ended up leaving as they closed the museums at 5PM.  By the time we arrived we were hungry so before we visited the museums we grabbed a bite to eat at <b>Panama 66</b> - Open air sandwich and craft beer location.  Very good.</p>
+<br>
+<p>The 5  museums were:</p>
+<ul><li>Model Railroad - Number one on our list.  The largest model railroad exhibit I’ve ever seen.  There are 4 different gauge exhibits and they are all very large
+</li><li>Air and Space - Number two on our list
+</li><li>Fleet Science Center - For kids, but go for the iMax
+</li><li>Photography - Specialized. I enjoyed it because I’m a photographer
+</li><li>Automotive - Go if you like Low Riders
+</li></ul>
+<p>Topped off the day by dining at <b>Searsucker</b>. Good but minimal mains menu but lot of starters.</p>
+<br>
+<blockquote>
+<p>A word about our Time Share - Great location and up to date room.  For some reason they were very low key trying to get us to listen to their salesperson.  Maybe all Timeshares have the same model and maybe they don’t,  However Wyndham’s is you buy shares in a resort. You receive “points” which you an use at any resort.  Every time you stay at a property they want you to visit the Welcome Center whose purpose is to get you to signup for a free <i>Information</i> breakfast. Turns out in every case its really an attempt to get you to buy more shares in a Wyndham Property so you can have more “points”.  I always turn them down.  </p>
+</blockquote>
+<hr>
+<p>Jan 30, 2020 at 9:18 AM: At the airport ready to fly home </p>
+<p class="strongMessage">For more photos <a href="https://flic.kr/s/aHsmLTs7ds" target="_blank">Click Here</a></p>
+</div>
+<div class="col-lg-12" style="background-color:darkgreen;"> &nbsp; </div><p>&nbsp;</p>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+<p></p>
+
+<div id="CenterNotice" >
+    <a href="./olderPosts.html">Older Posts</a>
+    <p>&nbsp;</p>
+</div>
+
+</div>
+
+<!-- end Message------------------------------------------------------------------------------------>
+
+<!-- Sidebar -------------------------------------------->
+
+<div class="col-lg-4" id="sidebar">
+
+    <img class="smallImage" src="./img/Marv.jpg"  >
+
+<h3 id="howdy">Howdy</h3>
+<p class="bigFirst"> I'm <a href="https://www.marvolson.com/MarvResume.html" title="About Marv">Marv Olson</a>. I'm a retired Systems Engineer now <span style="color: maroon"><b>living the 7 day weekend</b></span>. I enjoy volunteering for the <a href="https://ccmgatx.org/" title="CCMGA">Collin County Master Gardener's</a>, photography, traveling, developing/maintaining web applications, learning, and watching the grandkids approach adolescence and beyond for a couple of them. </p>
+
+<p class="bigFirst">For what I'm currently thinking or doing check back here </p>
+
+
+
+
+<h3>On my Radar:</h3>
+    <p id="daysToEvent">
+    <script src="js/event.js"></script>
+    <script src="js/daysUntil.js"></script>
+    <script src="js/eventAlertCountdown.js"></script>
+    </p>
+    <hr>
+
+<h3>Goals/Habits:  </h3>
+<br>
+<table class="tableCenter">
+    <tr><th>Goals (July - September)</th></tr>
+    <tr><td>Develop "Learn Habit"</td></tr>
+    <tr><td>Prepare for &amp; start 2020 MG Training Class</td></tr>
+    <tr><td>Develop Landscape Replacement Plan</td></tr>
+</table>
+
+<br>
+<table class="tableCenter">
+    <tr><th>Habits</th></tr>
+    <tr><td>Ride Bike 52 times</td></tr>
+    <tr><td>Weigh less than 220</td></tr>
+    <tr><td>Learn Habit</td></tr>
+</table>
+<h4>Stretch Goals</h4>
+    <ul>
+        <li>Populate Knowledge Base </li>
+        <li>Spend less time on Master Gardenes</li>
+        <li>Travel</li>
+        <li>Learn Javascript/Web</li>
+        <li>Manage Stress</li>
+        <li>Take more photos</li>
+        <li>Attend PCA Events</li>
+    </ul>
+    <hr>
+    <h3 class="centerElement"><a href="./2020-Marv.pdf" target="_blank">This Year</a></h3>
+<h3><a href="./2020-Marv.pdf" target="_blank"><img class="rightFrameImage" src="./2020-Marv.jpg"></a></h3>
+</div>
+</div>
+
+<!-- End Sidebar ------------------------------------------------>
+</div>
+<!-- End #content-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+<!-- Footer -->
+<footer id="footer">
+	&bull;I don’t know where I’m going but I’m enjoying the journey &bull;
+</footer>
+<!-- End Footer ---------------------------------------------------------------->
+ <script src="js/jsInit.js"></script>
+
+</body>
+<!-- InstanceEnd -->
+</html>

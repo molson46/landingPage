@@ -1,0 +1,26 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "Marv's Landing Page",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molson46/landingPage.git"
+  },
+  "author": "Marv Olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molson46/landingPage/issues"
+  },
+  "homepage": "https://github.com/molson46/landingPage#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-google": "^0.11.0"
+  }
+}
