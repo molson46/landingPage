@@ -1,5 +1,5 @@
 // Define Eventdate
     var eventYear = 2020;
-    var eventMonth =08;
-    var eventDay = 25;
-    var eventTitle = "Training Class";  
+    var eventMonth =11;
+    var eventDay = 20;
+    var eventTitle = "Hiking Sedona";  
