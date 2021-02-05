@@ -1,0 +1,57 @@
+(A) 2021-01-10 Build php to display fields on web +tdviewer @dev
+(A) 2021-01-10 Do 10 Affinity Designer Tutorials +adesigner @learn
+(A) 2021-01-10 Start on Taxes -followup +2021tax @money
+(B) 2021-01-07 Add some more CEU videos to the Dashboard including Garden Tours @mgad
+(B) 2021-01-07 Do +viruscourse lesson 5 @learn due:2021-02-09
+2021-01-17 Cancel Apple Music - both subscriptions @family due:2021-02-25
+(B) 2021-01-24 Submit medical bills to ESY @money @tw
+(B) 2021-01-30 Start planning Destin Trip +destin @travel
+(B) 2021-01-31 Fix Spa Heater @home
+(B) 2021-01-31 Format the line number on the task list +tdviewer @dev 
+(B) 2021-01-31 Publish review for community gardens -followup Nancy @mgic
+(C) 2020-12-11 What to do with Gardening Info Sources on USB drives @mgic
+(C) 2020-12-13 Process CD photos @photography
+(C) 2020-12-16 Develop a straw man plan for the Back Berm +landscape @landscape
+(C) 2020-12-20 Buy a new patio heater -drafts @landscape
+(C) 2021-01-03 Plan one day trip @family
+(C) 2021-01-10 Checkout Mac App Hook -pocket @tech
+(C) 2021-01-17 Dig up Gardenias +landscape @landscape
+(C) 2021-01-24 Change tcount to list the tasks done last week, maybe in a flle @dev @productivity
+(C) 2021-01-24 Fix Instagram to Facebook posting on ccmgatx @mgco
+(C) 2021-01-31 Setup periodic ftp todo.txt to landingPage +tdviewer @dev 
+2020-04-05 Create a better My Story Button +landingpage  @dev
+2020-05-21 Change landingPage Howdy to only show up on home page or everywhere - not on post archive at all +landingpage @dev
+2020-08-16 Buy logitech camera & mic for macmini @tech
+2020-08-16 Troubleshoot camera on ThinkPad @mgte
+2020-08-30 Buy a new fertilizer spreader @landscape
+2020-11-15 Get Python regEx Cheat Sheet -pocket @learn
+2020-11-15 Stop Apple Music Subscription on Mac Mini @money -waiting
+2020-12-22 Add Project Lead, Board, & Specialist email hotlinks in the Forwarding a Question Chapter +updateica @mgic @waiting
+2020-12-22 Add guidelines for forwarding a question +updateica @mgic @waiting
+2020-12-22 Add normal office hours comments, SUG, etc +updateica @mgic @waiting
+2020-12-22 Fix page numbering & make sure page numbers are visible +updateica @mgic @waiting
+2020-12-22 Rvw & decide hot to standardize pink, yellow, & no boxes +updateica @waiting
+2021-01-03 Develop covid and noncovid vacation plan @family
+2021-01-07 Do +viruscourse lesson 6 @learn due:2021-02-16
+2021-01-07 Do +viruscourse lesson 7 @learn due:2021-02-23
+2021-01-10 Clean pool filter @tw
+2021-01-10 Clean the gutters @landscape
+2021-01-10 Do 10 Affinity Designer Tutorials +adesigner @learn
+2021-01-17 Buy & install a LED undercounter -iphonephotos lightstrip @home
+2021-01-24 Add Memphis and Mabelinne by Chuck Berry to some playlist @productivity
+2021-01-24 Read/watch some on Piet Oudolf @landscape
+2021-01-24 Run water in bathtubs @home @tw
+2021-01-31 COIVD shot @errand due:2021-02-03
+2021-01-31 Check "info@ccmgatx.org" email @mgic  due:2021-02-05
+2021-01-31 Check Information Center schedule for next week slots/mentors/etc. @mgic  due:2021-02-07
+2021-01-31 Do Weekly Review @productivity due:2021-02-07
+2021-01-31 Haircut @errand due:2021-02-05
+2021-01-31 Leadership Council @mgad due:2021-02-05
+(B) 2021-01-31 Photograph Allen Heritage Garden @mgte @tw
+2021-01-31 Spend an hour at a coffee shop @productivity @tw
+2021-01-31 Spend an hour at a coffee shop @productivity @tw
+2021-01-31 Update ESY & landingPage Git repository @tech due:2021-02-04
+2021-02-01 Directory Change pgm has a problem. does not pickup status changes correctly; see 2021-02 @mgte @nw 
+(A) 2021-02-02 Get rid of extra line number at the bottom of the tv list +tdviewer @dev 
+2021-02-03 Work on taxes an hour +2021tax @money @nw 
+    
