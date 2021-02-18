@@ -66,8 +66,9 @@
 /////////////////////////////////////////////////////////////////
     date_default_timezone_set("America/Chicago");
     newLine();
-    $line = 1;
+    $line = 0;
 
+    $filter =  $_POST['filter'];
     $taskfile = fopen("todo.txt", "r") or die("Unable to open file!");
 
     
@@ -79,9 +80,13 @@
     // Output one line until end-of-file
     while(!feof($taskfile)) {
       $onetask = fgets($taskfile);
-      if (!trim($onetask) == '') {
+      ++$line;
+
+      if ((substr($filter,0,1) == "*") and (!trim($onetask)) == '')  {
         echo "<tr> <td>" . $line  .  "</td> <td>" .  $onetask .  "</td> </tr>";
-        ++$line;
+      }
+      elseif ((strpos($onetask, $filter) !== false)  and (!trim($onetask)) == '') {
+        echo "<tr> <td>" . $line  .  "</td> <td>" .  $onetask .  "</td> </tr>";
       }
     }
     fclose($taskfile);
