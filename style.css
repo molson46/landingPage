@@ -248,12 +248,13 @@ fieldset {
 }
 
 legend {
-    font-size: 2em;
-    background-color: #1D444A;
+    font-size: 1em;
+    background-color: #7d3d5b;
     color: white;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center; 
 }
 
 label.field {
