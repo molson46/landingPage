@@ -42,10 +42,10 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Display the todo.txt tasks                               -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<article class="container">  
+<article class="container">
 <div class="row" "col-lg-12">
 <?php
-/////////////////////////////////////////////////////////////////      
+/////////////////////////////////////////////////////////////////
 // functions
 //
 /////////////////////////////////////////////////////////////////
@@ -69,10 +69,10 @@
     $line = 0;
 
     $filter =  $_POST['filter'];
-    $taskfile = fopen("https://www.dropbox.com/s/tz2a5l18s0vvp8s/todo.txt?dl=0", "r") or die("Unable to open file!");   
+    $taskfile = fopen("https://www.dropbox.com/s/tz2a5l18s0vvp8s/todo.txt?dl=0", "r") or die("Unable to open file!");
 
 /////////////////////////////////////////////////////////////////
-    
+
     echo "<table class=\"table table-striped\" >";
     echo "<thead class=\"thead-dark\">";
     echo "<tr> <th> Line </th> <th> Task </th> </tr>";
@@ -98,10 +98,10 @@
 
 </div>
 </article>
- <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->   
+ <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Footer -->
 <footer id="footer" class="container">
-<div class="row col-lg-12"> 
+<div class="row col-lg-12 cneter-text"> 
 	&bull;Be the Change&bull;
 </div>
 </footer>
