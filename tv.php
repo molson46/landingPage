@@ -69,7 +69,7 @@
     $line = 0;
 
     $filter =  $_POST['filter'];
-    $taskfile = fopen("https://www.dropbox.com/s/tz2a5l18s0vvp8s/todo.txt?dl=0", "r") or die("Unable to open file!");
+    $taskfile = fopen("../marvolson.com/marv/todo.txt", "r") or die("Unable to open file!");
 
 /////////////////////////////////////////////////////////////////
 
